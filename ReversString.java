@@ -13,6 +13,14 @@ public class ReversString {
     
     }
     System.out.println(rev);
+
+
+   //2.using StringBuffer class
+
+
+    StringBuffer sb=new StringBuffer(s);
+    System.out.println(sb.reverse());
 }
 }
    // output--hbaruas
+          //    hbaruas
